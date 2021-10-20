@@ -1,0 +1,6 @@
+# Optional eslint cache
+.eslintrc.json
+
+
+# Dependency directories
+node_modules/

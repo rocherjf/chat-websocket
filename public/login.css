@@ -1,0 +1,71 @@
+html, body {
+    background-color: #6c1d1d;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 100%;
+}
+
+#login__unsername-text {
+    color: #fff;
+}
+
+@media only screen and (max-width: 500px){
+    #login__unsername-text {
+        font-size: 150%;
+    }
+    #login__unsername-input {
+        font-size: 150%;
+        width: calc(100% - 50px);
+    }
+}
+
+@media only screen and (min-width: 500px){
+    #login__unsername-text {
+        font-size: 200%;
+    }
+    #login__unsername-input {
+        font-size: 200%;
+        width: 400px;
+    }
+}
+
+#login__unsername-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    padding-bottom: 15px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #fff;
+    font-weight: 300;
+}
+
+
+#login__button-next {
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    box-shadow: none;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 150%;
+    font-weight: 800;
+    max-width: 100%;
+    margin:2rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    transition: background-color .2s,border-color .2s,color .2s;
+    white-space: nowrap;
+}

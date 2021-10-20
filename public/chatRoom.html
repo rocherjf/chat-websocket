@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="scrollbar.css">
+    <link rel="stylesheet" href="chatRoom.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="chat__chat-area">
+        <div id="chat__messages">
+        </div>
+    </div>
+
+    <input id="chat__inputMessage" placeholder="Type here..." />
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="chatRoom.js"></script>
+</body>
+
+</html>
