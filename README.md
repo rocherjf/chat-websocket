@@ -1,2 +1,2 @@
 # chat-websocket
-Appli de discussion instantannée basée wur WebSocket.
+Appli de discussion instantannée basée sur WebSocket.
